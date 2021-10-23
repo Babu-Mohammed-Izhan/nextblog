@@ -9,7 +9,6 @@ export default function Home({ articles }) {
         <title>Web Dev Blog</title>
         <meta name="keywords" content="web development, programming" />
       </Head>
-      <h1> WebDev News</h1>
       <ArticleList articles={articles} />
     </div>
   );
